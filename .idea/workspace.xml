@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af573ff-d0d4-4e9e-b811-2b9bb475e521" name="Changes" comment="Added functionality to the login window">
-      <change afterPath="$PROJECT_DIR$/Persons/add_person.py" afterDir="false" />
+    <list default="true" id="0af573ff-d0d4-4e9e-b811-2b9bb475e521" name="Changes" comment="Added functionality to the add_persons window">
+      <change afterPath="$PROJECT_DIR$/Main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
   "keyToString": {
     "Python.add_person.executor": "Run",
     "Python.login.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -132,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743444310102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added functionality to the add_persons window">
+      <option name="closed" value="true" />
+      <created>1743447055556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743447055556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +160,7 @@
     <MESSAGE value="Starting Sample Application training" />
     <MESSAGE value="Created UI in QT Designer;&#10;Added resources;&#10;Converted resources and ui to Python;&#10;Created login file for the login form;&#10;TODO: Add functionality to the login form" />
     <MESSAGE value="Added functionality to the login window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to the login window" />
+    <MESSAGE value="Added functionality to the add_persons window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to the add_persons window" />
   </component>
 </project>
