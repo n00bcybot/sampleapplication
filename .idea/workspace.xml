@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0af573ff-d0d4-4e9e-b811-2b9bb475e521" name="Changes" comment="Added functionality to the add_persons window">
-      <change afterPath="$PROJECT_DIR$/Main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/main.py" afterDir="false" />
+    <list default="true" id="0af573ff-d0d4-4e9e-b811-2b9bb475e521" name="Changes" comment="Created main window and connected the widgets to it">
+      <change beforePath="$PROJECT_DIR$/.idea/SampleApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SampleApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application_Login/UI/login_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application_Login/UI/login_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/icons/Icons_rc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/UI/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/UI/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persons/UI/add_person_dialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Persons/UI/add_person_dialog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +55,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "MayaCharm.main.executor": "Run",
     "Python.add_person.executor": "Run",
     "Python.login.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/fresh/Desktop/repos/SampleApplication/venv/Scripts/pyside6-designer.exe",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
+    "last_opened_file_path": "C:/Users/fresh/Desktop/repos/SampleApplication/Main/main.py",
+    "settings.editor.selected.configurable": "preferences.externalTools"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -142,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743447055556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created main window and connected the widgets to it">
+      <option name="closed" value="true" />
+      <created>1743449224644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743449224644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +175,7 @@
     <MESSAGE value="Created UI in QT Designer;&#10;Added resources;&#10;Converted resources and ui to Python;&#10;Created login file for the login form;&#10;TODO: Add functionality to the login form" />
     <MESSAGE value="Added functionality to the login window" />
     <MESSAGE value="Added functionality to the add_persons window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to the add_persons window" />
+    <MESSAGE value="Created main window and connected the widgets to it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created main window and connected the widgets to it" />
   </component>
 </project>
