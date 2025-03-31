@@ -33,11 +33,6 @@ class Ui_w_LoginForm(object):
         w_LoginForm.setWindowIcon(icon)
         self.gridLayout = QGridLayout(w_LoginForm)
         self.gridLayout.setObjectName(u"gridLayout")
-        self.lb_Message = QLabel(w_LoginForm)
-        self.lb_Message.setObjectName(u"lb_Message")
-
-        self.gridLayout.addWidget(self.lb_Message, 3, 0, 1, 1)
-
         self.pb_Cancel = QPushButton(w_LoginForm)
         self.pb_Cancel.setObjectName(u"pb_Cancel")
         icon1 = QIcon()
@@ -76,6 +71,7 @@ class Ui_w_LoginForm(object):
 
         self.le_Pass = QLineEdit(self.groupBox)
         self.le_Pass.setObjectName(u"le_Pass")
+        self.le_Pass.setEchoMode(QLineEdit.EchoMode.Password)
 
         self.formLayout.setWidget(1, QFormLayout.FieldRole, self.le_Pass)
 
@@ -86,6 +82,14 @@ class Ui_w_LoginForm(object):
 
         self.gridLayout.addItem(self.verticalSpacer, 1, 0, 1, 2)
 
+        self.lb_Message = QLabel(w_LoginForm)
+        self.lb_Message.setObjectName(u"lb_Message")
+
+        self.gridLayout.addWidget(self.lb_Message, 3, 0, 1, 2)
+
+        QWidget.setTabOrder(self.le_UserID, self.le_Pass)
+        QWidget.setTabOrder(self.le_Pass, self.pb_OK)
+        QWidget.setTabOrder(self.pb_OK, self.pb_Cancel)
 
         self.retranslateUi(w_LoginForm)
 
@@ -94,11 +98,11 @@ class Ui_w_LoginForm(object):
 
     def retranslateUi(self, w_LoginForm):
         w_LoginForm.setWindowTitle(QCoreApplication.translate("w_LoginForm", u"Sample Application", None))
-        self.lb_Message.setText(QCoreApplication.translate("w_LoginForm", u"Message", None))
         self.pb_Cancel.setText(QCoreApplication.translate("w_LoginForm", u"Cancel", None))
         self.pb_OK.setText(QCoreApplication.translate("w_LoginForm", u"OK", None))
         self.groupBox.setTitle(QCoreApplication.translate("w_LoginForm", u"Welcome! Please Login", None))
         self.label.setText(QCoreApplication.translate("w_LoginForm", u"User ID", None))
         self.label_2.setText(QCoreApplication.translate("w_LoginForm", u"Password", None))
+        self.lb_Message.setText("")
     # retranslateUi
 
